@@ -39,7 +39,7 @@ void draw() {
 }
 
 
-void mouseReleased (){
+void mousePressed (){
   int colIndex = mouseX/space;
   int rowIndex = mouseY/space;
   
