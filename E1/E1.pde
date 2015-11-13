@@ -13,7 +13,6 @@ void setup() {
   size(200,200);
   for(row=0; row<10; row++){
     for(col=0; col<10; col++){
-      rect(col*space,row*space,space,space);
      grid[col][row] =DARK;
     }
   }
@@ -39,7 +38,7 @@ void draw() {
 }
 
 
-void mousePressed (){
+void mouseReleased (){
   int colIndex = mouseX/space;
   int rowIndex = mouseY/space;
   
